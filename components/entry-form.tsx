@@ -215,7 +215,6 @@ export function EntryForm({ open, onClose, onSave }: EntryFormProps) {
                 ref={fileInputRef}
                 type="file"
                 accept="image/*"
-                capture="environment"
                 onChange={handleImageSelected}
                 className="hidden"
               />
